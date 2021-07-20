@@ -8,7 +8,7 @@ const ListSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    desc: {
+    type: {
       type: String,
     },
     genre: {
